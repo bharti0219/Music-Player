@@ -313,3 +313,18 @@ margin-top: 1rem;
     height: 1.5rem;
     width: 1.5rem;
 }
+
+@media only screen and (max-width:600px)
+{
+    .sidebar
+    {
+        display: none;
+    }
+    .card{
+        flex-basis: 100%;
+    }
+    .controls
+    {
+        margin-left: 10%;
+    }
+}
